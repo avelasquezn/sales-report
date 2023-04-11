@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import {DatePipe} from "@angular/common";
+import { ItemListComponent } from './sales/item-list/item-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ItemListComponent
   ],
   imports: [
     BrowserModule
